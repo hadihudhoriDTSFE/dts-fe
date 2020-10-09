@@ -13,34 +13,70 @@
             text-align: center;
             color: salmon;
         }
+        /* selector id */
         #penulis {
             text-decoration: underline;
             font-weight: bold;
         }
+        /* selector isi */
         .isi {
             text-align: justify;
             font-family: 'Times New Roman', Times, serif;
             font-size: 18px;
         }
+        .wadah {
+          border: 1px solid black;  
+          margin-top: 25px;
+          margin-right: 75px;
+          margin-bottom: 50px;
+          margin-left: 25px;
+          padding: 15px;
+          background-color: whitesmoke;
+          border-radius: 25px;
+        }
+        .foto {
+            max-width: 600px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .foto img {
+            max-width: 600px;
+            width: 100%;
+        }
+        .foto p {
+            font-size: 10px;
+            font-style: italic;
+        }
+        h1 a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1><a href="https://megapolitan.kompas.com/read/2020/10/09/14591041/18-pos-polisi-dirusak-dan-dibakar-saat-demo-tolak-uu-cipta-kerja-yang" target="_blank">Pos Polisi Dirusak dan Dibakar Saat Demo Tolak UU Cipta Kerja yang Berakhir Rusuh di Jakarta 18</a> </h1>
-    <p>
-        Penulis 
-        <span id="penulis">
-            Muhammad Isa Bustomi
-        </span>
-    </p>
-
-    <p class="isi">
-        <b><i>JAKARTA</i></b> , <i><a href="https://kompas.com" target="_blank">KOMPAS.com</a></i> - Polda Metro Jaya telah mendata jumlah kerusakan fasilitas kepolisian dalam kerusuhan terjadi saat unjuk rasa tolak omnibus law Undang-Undang Cipta Kerja pada Kamis (8/10/2020) kemarin. 
-    </p>
-    <p class="isi">
-        Setidaknya ada 18 pos polisi yang dirusak dan dibakar dalam kerusuhan itu. "Total fasilitas polisi yang dilakukan perusakan dan pembakaran oleh para perusuh ada 18 fasilitas pos pam," kata Kabid Humas Polda Metro Jaya, <b>Kombes Pol Yusri Yunus</b> kepada wartawan, Jumat (9/10/2020).
-    </p>
-    <p class="isi">
-        Yusri menjelaskan, dari 18 pos polisi tersebut di anataranya 9 dirusak dan 9 lainnya dibakar.
-    </p>
+    <div class="wadah">
+        <h1><a href="https://megapolitan.kompas.com/read/2020/10/09/14591041/18-pos-polisi-dirusak-dan-dibakar-saat-demo-tolak-uu-cipta-kerja-yang" target="_blank">Pos Polisi Dirusak dan Dibakar Saat Demo Tolak UU Cipta Kerja yang Berakhir Rusuh di Jakarta 18</a> </h1>
+        <div class="foto">
+            <img src="./img/gambar1.jpeg" alt="gambar">
+            <p>foto kerusuhan</p>
+        </div>
+        
+        <p>
+            Penulis 
+            <span id="penulis">
+                Muhammad Isa Bustomi
+            </span>
+        </p>
+        
+        <p class="isi">
+            <b><i>JAKARTA</i></b> , <i><a href="https://kompas.com" target="_blank">KOMPAS.com</a></i> - Polda Metro Jaya telah mendata jumlah kerusakan fasilitas kepolisian dalam kerusuhan terjadi saat unjuk rasa tolak omnibus law Undang-Undang Cipta Kerja pada Kamis (8/10/2020) kemarin. 
+        </p>
+        <p class="isi">
+            Setidaknya ada 18 pos polisi yang dirusak dan dibakar dalam kerusuhan itu. "Total fasilitas polisi yang dilakukan perusakan dan pembakaran oleh para perusuh ada 18 fasilitas pos pam," kata Kabid Humas Polda Metro Jaya, <b>Kombes Pol Yusri Yunus</b> kepada wartawan, Jumat (9/10/2020).
+        </p>
+        <p class="isi">
+            Yusri menjelaskan, dari 18 pos polisi tersebut di anataranya 9 dirusak dan 9 lainnya dibakar.
+        </p>
+    </div>
+    
 </body>
 </html>
